@@ -1,0 +1,9 @@
+{
+  "name": "sri-kurmanandha-website",
+  "version": "1.0.0",
+  "description": "Static website for Sri Kurmanandha Rice & General Stores",
+  "scripts": {
+    "dev": "npx serve Sri-Kurmanandha-Website",
+    "start": "npx serve Sri-Kurmanandha-Website"
+  }
+}
