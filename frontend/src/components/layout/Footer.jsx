@@ -92,9 +92,9 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-6 font-display">Contact Info</h4>
             <ul className="space-y-4">
               {[
-                { icon: HiOutlineLocationMarker, text: '123 Main Market Street, City, 500001' },
-                { icon: HiOutlinePhone, text: '+91 98765 43210' },
-                { icon: HiOutlineMail, text: 'info@srikurmanandha.com' },
+                { icon: HiOutlineLocationMarker, text: 'Sri Kurmanandha Rice & General Stores,near srikakulam old bus stand,Srikakulam dist, Andhra Pradesh, 532401' },
+                { icon: HiOutlinePhone, text: '+91 90634 69265' },
+                { icon: HiOutlineMail, text: 'appannarella4@gmail.com' },
                 { icon: HiOutlineClock, text: 'Mon - Sat: 8:00 AM - 9:00 PM' },
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
