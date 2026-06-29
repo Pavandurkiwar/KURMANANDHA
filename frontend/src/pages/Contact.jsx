@@ -51,9 +51,11 @@ export default function Contact() {
                 <h2 className="text-2xl font-display font-bold mb-6">Get in Touch</h2>
                 <div className="space-y-5">
                   {[
-                    { icon: HiOutlineLocationMarker, label: 'Address', value: '123 Main Market Street,\nCity, 500001' },
-                    { icon: HiOutlinePhone, label: 'Phone', value: '+91 98765 43210' },
-                    { icon: HiOutlineMail, label: 'Email', value: 'info@srikurmanandha.com' },
+                    { icon: HiOutlineLocationMarker, label: 'Address', value: 'Sri Kurmanandha Rice & General Stores<br>
+                            near srikakulam old bus stand,<br>
+                            Srikakulam dist, Andhra Pradesh, 532401</p>' },
+                    { icon: HiOutlinePhone, label: 'Phone', value: '+91 90634 69265' },
+                    { icon: HiOutlineMail, label: 'Email', value: 'appannarella4@gmail.com' },
                     { icon: HiOutlineClock, label: 'Business Hours', value: 'Mon - Sat: 8:00 AM - 9:00 PM\nSunday: 9:00 AM - 6:00 PM' },
                   ].map((info) => (
                     <div key={info.label} className="flex items-start gap-4">
@@ -71,7 +73,7 @@ export default function Contact() {
 
               {/* WhatsApp Button */}
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/919063469265"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-3 bg-green-500 text-white p-4 rounded-2xl font-semibold hover:bg-green-600 transition-all hover:shadow-lg hover:-translate-y-1"
