@@ -51,9 +51,9 @@ export default function Contact() {
                 <h2 className="text-2xl font-display font-bold mb-6">Get in Touch</h2>
                 <div className="space-y-5">
                   {[
-                    { icon: HiOutlineLocationMarker, label: 'Address', value: 'Sri Kurmanandha Rice & General Stores<br>
-                            near srikakulam old bus stand,<br>
-                            Srikakulam dist, Andhra Pradesh, 532401</p>' },
+                    { icon: HiOutlineLocationMarker, label: 'Address', value: 'Sri Kurmanandha Rice & General Stores,
+                            near srikakulam old bus stand,
+                            Srikakulam dist, Andhra Pradesh, 532401' },
                     { icon: HiOutlinePhone, label: 'Phone', value: '+91 90634 69265' },
                     { icon: HiOutlineMail, label: 'Email', value: 'appannarella4@gmail.com' },
                     { icon: HiOutlineClock, label: 'Business Hours', value: 'Mon - Sat: 8:00 AM - 9:00 PM\nSunday: 9:00 AM - 6:00 PM' },
